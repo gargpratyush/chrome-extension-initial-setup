@@ -1,0 +1,1 @@
+{"version":3,"file":"background.js","mappings":"AAAA","sources":["webpack://newtab-perplexity/./src/background/background.ts"],"sourcesContent":["chrome.runtime.onInstalled.addListener(() => {\r\n     console.log('onInstalled....');\r\n});\r\n\r\nchrome.bookmarks.onCreated.addListener(() => {\r\n    console.log('Bookmark created....');\r\n});"],"names":[],"sourceRoot":""}
